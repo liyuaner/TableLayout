@@ -1,0 +1,52 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:stretchColumns="*" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:gravity=""
+        android:background="@android:color/holo_blue_bright"
+        android:layout_column="1"
+        android:layout_span="2"
+        android:text="  Open...                                                                                  Ctrl-O
+   Save...                                                                                  Ctrl-O
+   Save...                                                                              Ctrl-Shift-S"
+        />
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:stretchColumns="*">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:gravity=""
+            android:text="X Import...l
+ X Export...                                                                           Ctrl-E"
+            android:background="@color/colorAccent"
+            android:id="@+id/textView" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity=""
+            android:text="Quit"
+            android:textSize="30sp"
+            android:background="@color/colorPrimaryDark" />
+    </TableRow>
+
+</TableLayout>
